@@ -2,9 +2,13 @@
 <h3>Your name: {{ user.name }}</h3>
 <p>Your name: {{ user.age }}</p>
 <input [(ngModel)]="user.age" />
-<div *ngIf="user.age >= 13; else noPG13">
-  Bạn có thể xem nội dung PG-13.
-</div>
+
+<ng-template [ngIf]="user.age >= 13" [ngIfElse]="noPG13">
+  <div>
+    Bạn có thể xem nội dung PG-13
+  </div>
+</ng-template>
+
 <ng-template #noPG13>
   <div>
     Bạn chưa đủ tuổi để làm việc này.

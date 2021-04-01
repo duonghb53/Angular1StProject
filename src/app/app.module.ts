@@ -5,13 +5,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './Day1/hello.component';
-import { Day2Component } from './Day2/day2.component';
+import { NgIfComponent } from './Day2/ngIf.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
-    Day2Component
+    NgIfComponent
   ],
   imports: [
     BrowserModule,
