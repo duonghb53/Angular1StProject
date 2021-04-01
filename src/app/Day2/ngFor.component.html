@@ -1,0 +1,14 @@
+<input [(ngModel)]="firstName" />
+<div *ngFor="let author of authors">
+  <ng-template [ngIf]="(author.firstName + author.lastName).includes(firstName)" [ngIfElse]="noFind">
+    <div>
+      {{author.id}} - {{author.firstName}} {{author.lastName}}
+    </div>
+  </ng-template>
+
+  <ng-template #noFind>
+    <div>
+      <!-- Không tìm thây Author! -->
+    </div>
+  </ng-template>
+</div>

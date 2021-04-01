@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './Day1/hello.component';
 import { NgIfComponent } from './Day2/ngIf.component';
+import { NgForComponent } from './Day2/ngFor.component';
+import { AttDirectiveComponent } from './Day2/attDirective.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
-    NgIfComponent
+    NgIfComponent,
+    NgForComponent,
+    AttDirectiveComponent
   ],
   imports: [
     BrowserModule,

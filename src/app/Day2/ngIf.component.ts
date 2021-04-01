@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: "app-day2",
-  templateUrl: 'day2.component.html'
+  selector: "app-ngIf",
+  templateUrl: 'ngIf.component.html'
 })
 export class NgIfComponent {
   user = {
