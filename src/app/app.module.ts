@@ -8,6 +8,7 @@ import { HelloComponent } from './Day1/hello.component';
 import { NgIfComponent } from './Day2/ngIf.component';
 import { NgForComponent } from './Day2/ngFor.component';
 import { AttDirectiveComponent } from './Day2/attDirective.component';
+import { ProgressBarComponent } from './Day2/progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AttDirectiveComponent } from './Day2/attDirective.component';
     HelloComponent,
     NgIfComponent,
     NgForComponent,
-    AttDirectiveComponent
+    AttDirectiveComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: 'ngIf.component.html'
 })
 export class NgIfComponent {
+
+  
+
   user = {
     name: "Maintan",
     age: 30,
